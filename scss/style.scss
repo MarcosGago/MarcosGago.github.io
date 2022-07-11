@@ -1,0 +1,161 @@
+$bg-color1:rgb(122, 255, 228);
+
+@mixin medida($width, $height, $font-size) {
+    height: $height;
+    width: $width;
+    font-size: $font-size;
+ }
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: url(img/fondo.jpg) ;
+    background-size: auto;
+    width: 100%;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(122, 255, 228);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+    background-color: honeydew;
+    
+}
+
+h2{
+    background-color: honeydew;
+}
+
+p{
+    text-align: center;
+    text-decoration:mediumblue;
+    font-family:"verdana";
+    background-color: darkgreen;
+    font-size: 30px;
+    height: auto;
+    width: auto;
+}
+
+.pa2{
+    font-family:"verdana";
+    background-color: rgb(57, 107, 57);
+    font-size: 30px;
+    
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 250px;
+
+    
+    
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+   
+}
+.bienvenidos{
+    text-align: center;
+    display:inline-block;
+
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.cointener{
+    padding-left: 300px;
+
+    
+}
+    
+
+
+       
+    
+   
+
+
+@import "menu";
+@import "tienda";
+@import "main";
+@import "medidas";
+@import "nosotros";
+@import "opinión";
+
+
+
+
+.footer
+{
+    position: fixed;
+    bottom: 0; 
+    .social{
+        padding-top: 100px;
+        padding-left: 5px;
+        padding-right: 30px;
+        height: auto;
+        width: 1400px;
+        text-align: center;
+        font-size: 50px;
+    
+     } 
+
+ }
+
+/*mapas --------------------------*/
+ #maps{
+    text-align: center;
+    padding-left: 100px;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+
+
+/*medidas */
+
+@media (max-width: 437px){
+    .bienvenidos{
+        font-size: 18px;
+        width: auto;
+    }
+
+    .logo{
+        position: relative;
+        left: 40px;
+    }
+
+    header{
+        width: 600px;
+    }
+}
+

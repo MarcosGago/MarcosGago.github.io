@@ -1,0 +1,60 @@
+
+/*formularios----------*/
+
+.formu{
+    
+    text-align: center;
+    .h2{
+        font-size: 20px;
+   
+   }
+
+   label{
+    
+    padding-right: 10px;
+    font-size: 20px;
+
+    }
+
+    #text{
+        background-color: rgb(8, 7, 7);
+        color: rgb(11, 164, 184);
+        padding: 20px;
+        margin: auto;
+    
+      .texto{
+
+        padding-top: 10px;
+        border: #000;
+      }
+      
+    }
+
+    .boton{
+      
+      background-color: $bg-color1;
+      border: none;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+        
+      &.boton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,5.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+      }
+    }
+
+    
+  
+  
+
+   
+}
+
